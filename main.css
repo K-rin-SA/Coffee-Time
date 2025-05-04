@@ -1,0 +1,260 @@
+body {
+  background-color: #c5af85;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #734B34;
+  margin: 0;
+  padding: 0;
+  border-bottom: 3px solid #403332;
+  border-top: 3px solid #403332;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: center; /* Центрує списки по горизонталі */
+  gap: 30px; /* Відстань між списками */
+  background-color: #303030;
+  padding: 40px 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#footer_box {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer_info {
+  /*width: ;
+  height: ;*/
+  display: flex;
+  gap: 110px;
+  color: #535353;
+}
+
+#footer_info a{
+  all: unset;
+}
+
+.information_of_footer {
+  list-style-type: none; /* Прибирає стандартні маркери списку */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.information_of_footer li {
+  color: #535353;
+  font-size: 15px;
+}
+
+.information_of_footer li:hover {
+  cursor: pointer;
+  color: #797878;
+}
+
+#call_name {
+  width: 230px;
+  font-size: 45px;
+  color: #A67B56;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+
+#logo img {
+  height: 110px;
+  object-fit: contain;
+  display: block;
+  transform: translateY(-30px);
+}
+
+
+.header_ul {
+  flex-wrap: wrap;
+  height: 150px;
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+  color: #A57B51;
+  font-family: "IBM Plex Sans", cursive;
+  font-weight: 430;
+  font-style: normal;
+  margin-right: 25px;
+  /*sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+}
+
+.header_ul a {
+  text-decoration: none; /* прибирає підкреслення */
+  color: inherit;         /* наслідує колір з батьківського елементу */
+}
+
+/* .header_ul_buttons {
+  padding: 5px;
+  border: 2px solid #A57B51;
+  border-radius: 15px;
+  background-color: #5E3613;
+}
+
+.header_ul_buttons:hover {
+  background-color: #5E3613;
+  border: 2px solid #5E3613;
+  color: #A57B51;
+  cursor: pointer;            https://k-rin-sa.github.io/Coffee-Time/
+  transform: scale(1.1);
+  transition: 0.390s;
+}
+  */
+.header_ul_buttons {
+    white-space: nowrap; /* Забороняє перенос */
+    padding: 8px 16px;
+    border: 2px solid #A57B51;
+    border-radius: 12px;
+    background-color: #5E3613;
+    transition: all 0.3s ease;
+    color: #A57B51;
+    font-size: 21px;
+}
+  
+  
+.header_ul_buttons:hover {
+  background-color: #A57B51;
+  color: #5E3613;
+  border-color: #5E3613;
+  transform: scale(1.08);
+  cursor: pointer;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+/* Основний стиль для списку */
+.header_ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+  color: #A57B51;
+  font-family: "IBM Plex Sans", cursive;
+  font-weight: 430;
+  font-size: 30px;
+  position: relative; /* Для розташування кнопок */
+  
+}
+
+/* Стиль кнопок */
+.header_ul_buttons {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  border: 2px solid transparent #A57B51;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Стиль при наведенні на кнопку */
+.header_ul_buttons:hover {
+  background-color: #A57B51;
+  color: #5E3613;
+  border-color: #5E3613;
+  transform: scale(1.08);
+}
+
+/* Стиль для активної кнопки */
+.selected {
+  background-color: #A57B51;
+  color: #5E3613;
+  border-color: #5E3613;
+  transform: scale(1.08);
+}
+
+/*---------------------------------------------------------------------------------------*/
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+}
+
+.scroll-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-fade-in {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.up_header_btn {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 85px;
+  right: 35px;
+  color: #A67B56;
+  background-color: #734B34;
+  border: 5px solid #403332;
+  border-radius: 50%;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.down_header_btn {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 15px;
+  right: 35px;
+  color: #A67B56;
+  background-color: #734B34;
+  border: 5px solid #403332;
+  border-radius: 50%;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}

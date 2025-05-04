@@ -1,0 +1,63 @@
+#our_history_p1 {
+    margin-top: 110px;
+    margin-bottom: 110px;
+    width: 790px;
+    height: 230px;
+    padding-left: 10px;
+    display: flex;
+    border: 3px solid #403332;
+    border-radius: 20px;
+    background-color: #a07c5d;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: pre-line;
+    font-size: 25px;
+    font-family: "IBM Plex Sans", cursive;
+}
+
+#our_history_p2 {
+    margin-top: 110px;
+    margin-bottom: 110px;
+    width: 790px;
+    height: 200px;
+    padding-left: 10px;
+    display: flex;
+    border: 3px solid #403332;
+    border-radius: 20px;
+    background-color: #a07c5d;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: pre-line;
+    font-size: 25px;
+    font-family: "IBM Plex Sans", cursive;
+}
+
+#our_history_p3 {
+    margin-top: 110px;
+    margin-bottom: 110px;
+    width: 790px;
+    height: 310px;
+    padding-left: 10px;
+    display: flex;
+    border: 3px solid #403332;
+    border-radius: 20px;
+    background-color: #a07c5d;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: pre-line;
+    font-size: 25px;
+    font-family: "IBM Plex Sans", cursive;
+}
+
+.line {
+    width: 95vw;          /* Ширина 95% від ширини вікна */
+    height: 3px;          /* Висота лінії */
+    background-color: #000;  /* Колір лінії (чорний у прикладі) */
+    margin: 20px auto;    /* Відступи знизу і згори */
+}
+
+
+#our_history_p1:hover, #our_history_p2:hover, #our_history_p3:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}

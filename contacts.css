@@ -1,0 +1,66 @@
+#contacts {
+    width: 100%;
+    height: 700px;
+    font-family: "IBM Plex Sans", cursive;
+    font-size: 20px;
+}
+
+#contacts_data h1 {
+    width: 95vw;
+    font-size: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #403332;
+    margin-bottom: 1px;
+    margin-top: 50px;
+    text-align: center;
+    border: 3px solid #403332;
+    border-left: none;
+    border-right: none;
+    padding: 25px;
+    margin-bottom: 140px;
+}
+
+#tag1 {
+    color: #bd9773;
+}   
+#tag2 {
+    color: #bd9773;
+}
+.oda {
+    padding-right: 45px;
+    border: 1px dotted;
+    flex: 1;
+    background-color: #734B34;
+    border: 2px solid #403332;
+    color: #af8965;
+    text-align: center;
+}
+
+.oda a {
+    text-decoration: none;
+    color: #af8965;
+    cursor: pointer;
+}
+
+.oda a:hover {
+    color: #856850;
+}
+
+.types_of_data_cont {
+    list-style: none;
+}
+
+#two_btnss {
+    width: 750px;
+    height: 230px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#con_data {
+    border-radius: 15px 0px 0px 15px;
+}
+
+#soc_data {
+    border-radius: 0px 15px 15px 0px;
+}

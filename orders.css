@@ -1,0 +1,55 @@
+#orders h1 {
+    width: 95vw;
+    font-size: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #403332;
+    margin-bottom: 1px;
+    margin-top: 50px;
+    text-align: center;
+    border: 3px solid #403332;
+    border-left: none;
+    border-right: none;
+    padding: 25px;
+    margin-bottom: 140px;
+  }
+#orders {
+    margin-bottom: 140px;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+#two_btns {
+    width: 750px;
+    height: 320px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.choice {
+    flex: 1;
+    background-color: #734B34;
+    border: 2px solid #403332;
+    color: #be936c;
+    text-align: center;
+    cursor: pointer;
+}
+
+#btn_staff_ord {
+    border-radius: 15px 0px 0px 15px;
+}
+
+#btn_bef_ord {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.orders_btns {
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+    border: 2px solid #403332;
+    border-right: none;
+    border-left: none;
+}
+
+.order_p {
+    font-size: 17px;
+}

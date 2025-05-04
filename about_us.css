@@ -1,0 +1,38 @@
+#about_us {
+    width: 100%;
+    height: 900px;
+}
+ #about_us {
+  display: flex;
+  justify-content: center;
+  top: 340px;
+  position: relative;
+  margin-bottom: 320px;
+}
+
+#about_us > div {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 5px solid #4e2d10;
+  background-color: #a07c5d;
+  border-left: none;
+  border-right: none;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+#about_us ul {
+  list-style-type: disc;
+  width: 250px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#about_us li {
+    font-family: "IBM Plex Sans", cursive;
+    font-size: 20px;
+}

@@ -1,0 +1,153 @@
+#our_personal_staff {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Заголовок h1 */
+#our_personal_staff h1 {
+    width: 95vw;
+    font-size: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #403332;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    text-align: center;
+    border: 3px solid #403332;
+    border-left: none;
+    border-right: none;
+    padding: 25px;
+    margin-bottom: 140px;
+}
+  
+  /* Блок із фото1 та p */
+  .main_content_wrapper1 {
+    height: 615px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+#kira_staff {
+    width: 309px;
+    border: 5px solid #5a4737;
+    padding: 3px;
+    overflow: hidden;
+    height: auto; /* Забезпечуємо автоматичне співвідношення висоти і ширини */
+    border-radius: 9px;
+}
+
+#veronika_staff {
+    width: 270px;
+    border: 5px solid #5a4737;
+    padding: 1px;
+    overflow: hidden;
+    height: auto; /* Забезпечуємо автоматичне співвідношення висоти і ширини */
+    border-radius: 9px;
+}
+
+#illia_staff {
+  width: 313px;
+    border: 5px solid #5a4737;
+    padding: 1px;
+    overflow: hidden;
+    height: auto; /* Забезпечуємо автоматичне співвідношення висоти і ширини */
+    border-radius: 9px;
+}
+
+#polina_staff {
+    width: 300px;
+    border: 5px solid #5a4737;
+    padding: 3px;
+    overflow: hidden;
+    height: auto; /* Забезпечуємо автоматичне співвідношення висоти і ширини */
+    border-radius: 9px;
+}
+  
+#dasha_staff {
+    width: 287px;
+    border: 5px solid #5a4737;
+    padding: 3px;
+    overflow: hidden;
+    height: auto; /* Забезпечуємо автоматичне співвідношення висоти і ширини */
+    border-radius: 9px;
+}
+
+#bohdan_staff {
+  width: 270px;
+    border: 5px solid #5a4737;
+    padding: 3px;
+    overflow: hidden;
+    height: auto; /* Забезпечуємо автоматичне співвідношення висоти і ширини */
+    border-radius: 9px;
+}
+
+  /* Абзац справа */
+  .main_content_wrapper1 p {
+    max-width: 600px;
+    height: 361px;
+    font-size: 18px;
+    font-family: "IBM Plex Sans", sans-serif;
+    line-height: 1.6;
+    padding: 15px;
+    border: 2px dotted #403332;
+    border-radius: 15px;
+    margin: 0;  /* Вимикаємо маргін */
+  }
+#bohdan_waiter {
+  height: 377px;
+  height: 462px;
+  font-size: 19px;
+}
+
+#kira_manage {
+  height: 395px;
+  font-size: 19px;
+}
+
+#illia_bar {
+  height: 395px;
+  font-size: 19px;
+}
+
+#dasha_kuhar {
+  height: 340px;
+  font-size: 19px;
+}
+
+#veronica_cond {
+  height: 395px;
+  font-size: 19px;
+}
+#polina_waiter {
+  height: 364px;
+  font-size: 19px;
+
+}
+
+  /* Лінія під блоком */
+  #under_line {
+    width: 95vw;
+    height: 3px;
+    background-color: #403332;
+    margin-top: 40px;
+    border-radius: 15px;
+    margin-bottom: 45px;
+  }
+
+  
+  
+  /* Фото2 під лінією */
+  #main_page_photo2 {
+    width: 600px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 9px;
+    margin-top: 50px;
+  }
+  
